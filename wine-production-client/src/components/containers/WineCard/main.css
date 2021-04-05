@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+.product-price:first-of-type {
+    color: slateblue;
+    padding-right: 0.1rem;
+}
+.products:hover .product-img img {
+    transform: scale(1.01);
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-img img {
+    max-width: 100%;
+    text-align: center;
+}
+.product-info {
+    margin-top: auto;
+}
+.product-card {
+    flex: 1;
+    flex-basis: 16%;
+    padding: 2%;
+    background-color: #fff;
+}
+.title {
+    color: rgb(83, 49, 56);
+    font-style: italic;
+}

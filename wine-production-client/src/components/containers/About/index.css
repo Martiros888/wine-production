@@ -1,0 +1,183 @@
+/* * {
+     margin: 0;
+     padding: 0;
+ }
+  */
+@font-face {
+    font-family: r;
+    src: url();
+}
+
+.home-tab {
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.li:hover {
+    color: black;
+}
+
+.home {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.home1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home1 li {
+    width: 80px;
+}
+
+.li {
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.li:hover {
+    color: white;
+    font-size: 20px;
+}
+
+.image1 {
+    background-image: URL(home3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    flex-direction: column;
+    font-size: 100px;
+}
+
+.content1 {
+    background-color: white;
+    padding: 300px;
+    color: black;
+}
+
+.image2 {
+    display: flex;
+    width: 100%;
+    height: 620px;
+    justify-content: center;
+    background-color: #979291;
+    padding-bottom: 100px;
+}
+
+.image2 > img {
+    width: 40%;
+}
+
+.text1 {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #b0a89d;
+    padding: 40px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #979291;
+    padding-bottom: 50px;
+    font-size: 80px;
+    padding-top: 20px;
+    color: red;
+}
+
+.title p {
+    font-family: "Nothing You Could Do", cursive;
+}
+
+.west {
+    display: flex;
+    width: 100%;
+    height: 570px;
+    justify-content: center;
+    background-color: #979291;
+    padding-bottom: 100px;
+}
+
+.west > img {
+    width: 40%;
+}
+
+span > i {
+    position: absolute;
+    z-index: 999;
+    color: red;
+}
+
+.west1 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    background-color: #979291;
+    padding-bottom: 100px;
+}
+
+.west1 > img {
+    width: 40%;
+}
+
+.end {
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end div {
+    padding: 50px;
+}
+
+.end p {
+    padding: 10px;
+}
+
+.logo > img {
+    width: 50%;
+}
+
+.p2 {
+    font-size: 25px;
+    font-family: "Signika Negative", sans-serif;
+}
+
+span > li {
+    color: red;
+}

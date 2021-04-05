@@ -1,0 +1,12 @@
+@import '../scssvariables/variables.scss';
+.navigation{
+    ul { 
+        @include center();
+        li{
+            list-style: none;
+            font-size: 2vw;
+            margin-left: 1.5vw;
+            margin-right: 1.5vw;
+        }
+    }
+}

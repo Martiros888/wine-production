@@ -1,0 +1,22 @@
+@import '../../scssvariables/variables.scss';
+.AdminPage {
+    @include whb(100vw,100vh,white);
+    display: flex;
+    justify-content: center;
+    .login{
+        margin-top:20vh; 
+        @include flex();
+        @include whb(25vw,50vh,white);
+        box-shadow: 0 0 3px black;
+        input {
+            margin-top:2vw;
+            width: 80%;
+        };
+        span {
+            font-size: 35px;
+        }
+        button {
+            margin-top:2vw;
+        }
+    }
+}
